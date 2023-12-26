@@ -1,0 +1,14 @@
+Запуск из командной строки
+
+- Перейдите в директорию проекта
+- Перейдите в каталог src
+- Выполните следующую команду для запуска приложения:
+  java Main <encode/decode/info> [Files/]<inputFile>
+
+Примеры запуска
+- encode:
+  java Main encode Files/input.txt
+- decode:
+  java Main decode input.arc
+- info:
+  java Main info input.arc
